@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>TouristRegister</servlet-name>
+    <servlet-class>Servlet.TouristRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TouristRegister</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TouristUpdate</servlet-name>
+    <servlet-class>Servlet.TouristUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TouristUpdate</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TouristLogin</servlet-name>
+    <servlet-class>Servlet.TouristLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TouristLogin</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TouristVeiw</servlet-name>
+    <servlet-class>Servlet.TouristVeiw</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TouristVeiw</servlet-name>
+    <url-pattern>/veiw</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TourSearch</servlet-name>
+    <servlet-class>Servlet.TourSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TourSearch</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>previous</servlet-name>
+    <servlet-class>Servlet.previous</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>previous</servlet-name>
+    <url-pattern>/prem</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TouristDelete</servlet-name>
+    <servlet-class>Servlet.TouristDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TouristDelete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>ViewUpdate</servlet-name>
+    <servlet-class>Servlet.ViewUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewUpdate</servlet-name>
+    <url-pattern>/ups</url-pattern>
+  </servlet-mapping>
+</web-app>
