@@ -2,6 +2,7 @@ package Class08;
 
 public class Tour {
 
+	
 	private String tourid;
 	private String name;
 	private String destination;
